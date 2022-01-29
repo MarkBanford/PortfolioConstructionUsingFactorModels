@@ -1,0 +1,14 @@
+
+- A Factor model is nothing more than a decomposition of an asset return into its factor returns
+
+R=B1F1 + B2F2 +.....+ Alpha + Error   (good model will have a low error term)
+
+Capital Asset Pricing Model (CAPM) - Asset return is nothing more than the market return * Beta
+where Beta is the Covar(Asset Return, Market) / Variance (Market)
+
+
+
+
+
+
+
