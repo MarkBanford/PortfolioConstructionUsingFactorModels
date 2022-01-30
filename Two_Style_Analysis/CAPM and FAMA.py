@@ -28,3 +28,10 @@ exp_var["Constant"] = 1
 lm = sm.OLS(brka_excess, exp_var).fit()
 
 print(lm.summary())  # notice constant in output, alpha is 61bps per month, Beta = 0.5402
+
+exp_var['Value'] = fff.loc["1990":"2012-05", ['HML']]
+exp_var['Size'] = fff.loc["1990":"2012-05", ['SMB']]
+print(exp_var.head())
+
+lm = sm.OLS(brka_excess, exp_var).fit()
+print(lm.summary())
